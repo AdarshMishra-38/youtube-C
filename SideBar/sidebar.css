@@ -1,0 +1,87 @@
+body{
+    background-color: black;
+    /* border: 2px solid red; */
+}
+
+#Expanded-Menu{
+    width: 240px;
+    padding: 12px;
+    background-color: black;
+    position:fixed;
+    height: 620px;
+    overflow-y: scroll;
+    /* margin-top: 0px; */
+    /* border: 2px solid orange; */
+}
+
+#Expanded-Menu::-webkit-scrollbar {
+    width: 5px;
+    
+  }
+  
+  #Expanded-Menu::-webkit-scrollbar-track {
+    background-color: #000000;
+  }
+  
+  #Expanded-Menu::-webkit-scrollbar-thumb {
+    background-color: #3d3737;
+  }
+/* 
+#Expanded-Menu div{
+    width:inherit;
+} */
+
+#Expanded-Menu div div{
+    /* line-height: 24px; */
+    /* border: 2px solid green; */
+    display: flex ;
+    align-items: center;
+    margin: 8px;
+    padding: 8px;
+  
+    
+    
+}
+
+
+
+#Expanded-Menu div div>a{
+    /* line-height: 24px; */
+    /* border: 2px solid rgb(247, 0, 148); */
+    width: 180px;
+    
+     display: flex ;
+     padding: 11px;
+     margin: 5px;
+     text-decoration: none;
+     color: white;
+     border-radius: 10px;
+     height: fit-content;
+    
+    align-items: center; 
+}
+
+#Expanded-Menu div div>a:hover{
+    /* line-height: 24px; */
+   background-color:#323232;
+    
+    /* align-items: center;  */
+}
+
+#Expanded-Menu div div>a span{
+ 
+   margin-left: 20px;
+   font-size: 15px;
+   font-weight: 600px;
+   font-family: 'Protest Riot', sans-serif;
+    
+    
+}
+
+/* #Expanded-Menu div div>a>span{
+ 
+ 
+    margin-bottom: 5px;
+   
+   
+} */
